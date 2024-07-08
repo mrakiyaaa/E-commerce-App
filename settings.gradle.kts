@@ -1,3 +1,4 @@
+//
 //pluginManagement {
 //    repositories {
 //        google {
@@ -21,14 +22,13 @@
 //    }
 //}
 //
-//rootProject.name = "E-Commerce App"
+//rootProject.name = "Smart-Shopping"
 //include(":app")
-//
 
 pluginManagement {
     repositories {
-        gradlePluginPortal()
         google()
+        gradlePluginPortal()
         mavenCentral()
     }
 }
@@ -41,5 +41,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "E-Commerce-App"
+rootProject.name = "Smart-Shopping"
 include(":app")
